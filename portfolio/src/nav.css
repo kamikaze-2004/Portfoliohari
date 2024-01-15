@@ -1,0 +1,262 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    background-image: url("E:\Hariguru\hariprograms\port\portfolio\src\black-geometric-memphis-social-banner_53876-116843 (1).avif");
+    
+    }
+
+    nav {
+      background-color: #090909;
+      padding: 10px 20px;
+      box-shadow: 0 4px 6px rgba(252, 8, 20, 0.1);
+      
+    }
+
+    nav ul {
+    list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    
+    }
+
+  
+
+    nav li {
+      margin: 0;
+      color:rgb(80, 12, 240);
+      list-style:none;
+      text-size-adjust: 10pxc;
+    }
+
+    .about::before {
+      content: '';
+      display:inline-block;
+      background-image: url("E:\Hariguru\hariprograms\port\portfolio\src\images (1).png") ;
+      background-size: contain;
+      width: 20px; 
+      height: 20px; 
+      margin-right: 10px;
+      margin-top: 10px;
+
+ 
+     
+    }
+    .contacts::before {
+      content: '';
+      display:inline-block;
+      background: url("E:\Hariguru\hariprograms\port\portfolio\src\images.jpeg") ;
+      background-size: contain;
+      width: 20px; 
+      height: 20px; 
+      margin-right: 10px; margin-top: 10px;
+     
+    }
+
+    .skills::before {
+      content: '';
+      display:inline-block;
+      background: url("E:\Hariguru\hariprograms\port\portfolio\src\images (3).png") ;
+      background-size: contain;
+      width: 20px; 
+      height: 20px; 
+      margin-right: 10px; margin-top: 10px;
+     
+    }.Edu::before {
+      content: '';
+      display:inline-block;
+      background: url("E:\Hariguru\hariprograms\port\portfolio\src\images (4).png") ;
+      background-size: contain;
+      width: 20px; 
+      height: 20px; 
+      margin-right: 10px; margin-top: 10px;
+     
+    }
+    
+  
+
+    nav a {
+  text-decoration:none;
+      color: #0b0b0b;
+      font-weight:bolder;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #fe0c0c;
+      text-shadow: #0aec30;}
+
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      
+    }
+
+    .cont
+    {
+      position: relative;
+      height: 300px;
+    }
+    .image
+    {
+  
+      border-radius: 50%;
+      height:200px ;
+      width:200px;
+      top:50%;
+      left:10%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+    }
+
+    .am{
+      display: inline-block;
+      position: absolute;
+      top:25%;
+      right:60%;
+      color: rgb(0, 255, 81);
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 45px;
+    }
+
+    span
+    {
+      font-size:20px;
+      font-family:cursive;
+    }
+    .actcont
+    {
+      position:fixed;
+      height: 300px;
+      top:40%;
+      left:15%;
+      font-size:20px;
+      font-family:Arial, Helvetica, sans-serif;
+      border: 1px solid rgb(15, 16, 13);
+      padding: 10px;
+      box-sizing:content-box;
+      color:crimson;
+      background: rgb(248, 246, 246);
+      width: 1200px;
+      
+    }
+    .e
+    {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .school
+    {
+      height:110px;
+      width: 200px; 
+       }
+
+       .std
+       {
+        height:200px;
+        width: 200px; 
+        right:10%;
+        position:fixed;
+       }
+    .conta{
+      color:rgb(255, 77, 0);
+      font-family: fantasy;
+    }
+    .contdet::before
+    {
+      content: '';
+      display:inline-block;
+      background: url("E:\Hariguru\hariprograms\port\portfolio\src\contactdet.png") ;
+      background-size:cover;
+      width: 15px; 
+      height: 20px; 
+      
+    }
+    .mail::before
+    {
+      content: '';
+      display:inline-block;
+      background: url("E:\Hariguru\hariprograms\port\portfolio\src\mail.png") ;
+      background-size:cover;
+      width: 25px; 
+      height: 25px; 
+      
+    }
+    .linked::before
+    {
+      content: '';
+      display:inline-block;
+      background: url("E:\Hariguru\hariprograms\port\portfolio\src\linked.png") ;
+      background-size:cover;
+      width: 30px; 
+      height: 20px; 
+      
+    }
+
+    .git::before
+    {
+      content: '';
+      display:inline-block;
+      background: url("E:\Hariguru\hariprograms\port\portfolio\src\git.png") ;
+      background-size:cover;
+      width: 30px; 
+      height: 30px; 
+      
+    }
+    .add::before
+    {
+      content: '';
+      display:inline-block;
+      background: url("E:\Hariguru\hariprograms\port\portfolio\src\add.jpg") ;
+      background-size:cover;
+      width: 30px; 
+      height: 30px; 
+      
+    }
+
+    .ski
+    {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .liele
+    {
+      font-size: 15px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .webd
+    {
+      height:200px;
+      width: 200px; 
+      right:10%;
+      position:fixed;
+      top:50%;
+    }
+    
+    .webd2
+    {
+      height:200px;
+      width: 250px; 
+      right:30%;
+      position:fixed;
+      top:50%;
+    }
+
+    .php
+    {
+      height:200px;
+      width: 250px; 
+      right:50%;
+      position:fixed;
+      top:50%;
+    }
+
+
